@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d;
+    printf("enter four number:");
+    scanf("%d%d%d%d",&a,&b,&c,&d); 
+int big=a>b&&b>c&&c>d?a:(b>c&&c>d)?
+b:(c>d)?c:d;
+printf("%d,big");
+int small=a<b&&b<c&&c<d?a:(b<c&&c<d)?
+b:(c<d)?c:d;
+printf("%d",small);
+
+    return 0;
+}
